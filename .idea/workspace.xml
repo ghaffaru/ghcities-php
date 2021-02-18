@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9746358-3949-4c9e-b916-66784c955f8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/RegionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ghcities-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ghcities-php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GhcitiesPhpClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Region.php" afterDir="false" />
-    </list>
+    <list default="true" id="b9746358-3949-4c9e-b916-66784c955f8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613637982294</updated>
-      <workItem from="1613637985701" duration="1004000" />
+      <workItem from="1613637985701" duration="1131000" />
     </task>
     <servers />
   </component>
