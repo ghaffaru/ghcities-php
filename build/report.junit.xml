@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002331">
+    <testsuite name="Ghaffaru Test Suite" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002331">
+      <testsuite name="Ghaffaru\GhCities\Tests\RegionTest" file="/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002331">
+        <testcase name="it_can_return_all_regions" class="Ghaffaru\GhCities\Tests\RegionTest" classname="Ghaffaru.GhCities.Tests.RegionTest" file="/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php" line="11" assertions="0" time="0.002331">
+          <error type="Error">Ghaffaru\GhCities\Tests\RegionTest::it_can_return_all_regions
+Error: Call to undefined method Ghaffaru\GhCities\Region::all()
+
+/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php:13</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

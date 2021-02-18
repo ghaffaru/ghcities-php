@@ -1,0 +1,47 @@
+{
+  "name": "ghaffaru/ghcities-php",
+  "description": "PHP package for working with cities in ghana",
+  "keywords": [
+    "ghaffaru",
+    "ghana-cities"
+  ],
+  "homepage": "https://github.com/ghaffaru/ghcities-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ghaffaru",
+      "email": "mudashiruagm@gmail.com",
+      "homepage": "https://github.com/ghaffaru/ghcities-php",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16",
+    "phpunit/phpunit": "^9.3",
+    "vimeo/psalm": "^3.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ghaffaru\\GhCities\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ghaffaru\\GhCities\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "psalm": "vendor/bin/psalm",
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+    "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
