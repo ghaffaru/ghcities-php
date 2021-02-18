@@ -1,8 +1,7 @@
 # ghcities-php
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ghaffaru/ghcities-php.svg?style=flat-square)](https://packagist.org/packages/ghaffaru/ghcities-php)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/ghaffaru/ghcities-php/run-tests?label=tests)](https://github.com/ghaffaru/ghcities-php/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/ghaffaru/ghcities-php.svg?style=flat-square)](https://packagist.org/packages/ghaffaru/ghcities-php)
+[![Latest Stable Version](https://poser.pugx.org/ghaffaru/ghcities-php/v)](//packagist.org/packages/ghaffaru/ghcities-php)
+[![Total Downloads](https://poser.pugx.org/ghaffaru/ghcities-php/downloads)](//packagist.org/packages/ghaffaru/ghcities-php)
+[![License](https://poser.pugx.org/ghaffaru/ghcities-php/license)](//packagist.org/packages/ghaffaru/ghcities-php)
 
 A php package for working with cities in ghana !
 
