@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002331">
-    <testsuite name="Ghaffaru Test Suite" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002331">
-      <testsuite name="Ghaffaru\GhCities\Tests\RegionTest" file="/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.002331">
-        <testcase name="it_can_return_all_regions" class="Ghaffaru\GhCities\Tests\RegionTest" classname="Ghaffaru.GhCities.Tests.RegionTest" file="/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php" line="11" assertions="0" time="0.002331">
-          <error type="Error">Ghaffaru\GhCities\Tests\RegionTest::it_can_return_all_regions
-Error: Call to undefined method Ghaffaru\GhCities\Region::all()
-
-/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php:13</error>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.004302">
+    <testsuite name="Ghaffaru Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.004302">
+      <testsuite name="Ghaffaru\GhCities\Tests\RegionTest" file="/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.004302">
+        <testcase name="it_can_return_all_regions" class="Ghaffaru\GhCities\Tests\RegionTest" classname="Ghaffaru.GhCities.Tests.RegionTest" file="/Users/mac/Documents/learning/ghcities-php/tests/RegionTest.php" line="11" assertions="1" time="0.004302">
+          <system-out>Array
+(
+    [0] =&gt; Ahafo
+    [1] =&gt; Ashanti
+    [2] =&gt; Bono
+    [3] =&gt; Bono East
+    [4] =&gt; Central
+    [5] =&gt; Eastern
+    [6] =&gt; Greater Accra
+    [7] =&gt; Nort East
+    [8] =&gt; Nothern
+    [9] =&gt; Oti
+    [10] =&gt; Savannah
+    [11] =&gt; Upper East
+    [12] =&gt; Upper West
+    [13] =&gt; Volta
+    [14] =&gt; Western
+    [15] =&gt; Western North
+)
+</system-out>
         </testcase>
       </testsuite>
     </testsuite>
