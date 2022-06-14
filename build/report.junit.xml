@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Ghaffaru\GhCities\Tests\RegionTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/RegionTest.php" tests="2" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.007884">
-    <testcase name="it_can_return_all_regions" class="Ghaffaru\GhCities\Tests\RegionTest" classname="Ghaffaru.GhCities.Tests.RegionTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/RegionTest.php" line="11" assertions="1" time="0.002779"/>
-    <testcase name="it_can_return_a_regions_cities" class="Ghaffaru\GhCities\Tests\RegionTest" classname="Ghaffaru.GhCities.Tests.RegionTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/RegionTest.php" line="19" assertions="16" time="0.005105"/>
+  <testsuite name="" tests="3" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.005097">
+    <testsuite name="Ghaffaru Test Suite" tests="3" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.005097">
+      <testsuite name="Ghaffaru\GhCities\Tests\CityTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/CityTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.003266">
+        <testcase name="it_can_return_all_cities" class="Ghaffaru\GhCities\Tests\CityTest" classname="Ghaffaru.GhCities.Tests.CityTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/CityTest.php" line="11" assertions="1" time="0.003266"/>
+      </testsuite>
+      <testsuite name="Ghaffaru\GhCities\Tests\RegionTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/RegionTest.php" tests="2" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.001831">
+        <testcase name="it_can_return_all_regions" class="Ghaffaru\GhCities\Tests\RegionTest" classname="Ghaffaru.GhCities.Tests.RegionTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/RegionTest.php" line="11" assertions="1" time="0.000343"/>
+        <testcase name="it_can_return_a_regions_cities" class="Ghaffaru\GhCities\Tests\RegionTest" classname="Ghaffaru.GhCities.Tests.RegionTest" file="/home/oteng/Projects/PHP/ghcities-php/tests/RegionTest.php" line="19" assertions="16" time="0.001488"/>
+      </testsuite>
+    </testsuite>
   </testsuite>
 </testsuites>

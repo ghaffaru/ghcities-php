@@ -24,6 +24,11 @@ Get all cities in Ghana
 ``` php
 $cities = \Ghaffaru\GhCities\City::all();
 ```
+
+Get Cities in a Region
+``` php
+$cities = \Ghaffaru\GhCities\Region::getCities('Ahafo');
+```
 ## Testing
 
 ``` bash
