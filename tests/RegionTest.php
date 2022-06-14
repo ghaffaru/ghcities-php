@@ -15,5 +15,15 @@ class RegionTest extends TestCase
         $this->assertIsArray($regions);
     }
 
+    /** @test */
+    public function it_can_return_a_regions_cities()
+    {
+        $regions = Region::all();
 
+        foreach ($regions as $region) {
+            $cities = Region::getCities($region);
+
+            $this->assertIsArray($cities);
+        }
+    }
 }

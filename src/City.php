@@ -14,7 +14,7 @@ class City
         {
             for ($i = 0; $i < count($value); $i++)
             {
-                array_push($allCities, $value[$i]);
+                $allCities[] = $value[$i];
             }
         }
         return $allCities;
